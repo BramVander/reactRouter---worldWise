@@ -35,6 +35,18 @@
         "lng": 13.376933665713324
       },
       "id": 98443197
+    },
+    {
+      "cityName": "Tokyo",
+      "country": "Japan",
+      "emoji": "JA",
+      "date": "2027-05-11T09:24:11.863Z",
+      "notes": "Dreams",
+      "position": {
+        "lat": 35.652832,
+        "lng": 139.839478
+      },
+      "id": 51793468
     }
   ]
 }
