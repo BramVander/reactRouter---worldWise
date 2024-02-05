@@ -3,7 +3,7 @@ import Spinner from "./Spinner";
 import CountryItem from "./CountryItem";
 import Message from "./Message";
 
-import useCities from "../hooks/useCities";
+import { useCities } from "../hooks/useCities";
 
 function CountryList() {
   const context = useCities();

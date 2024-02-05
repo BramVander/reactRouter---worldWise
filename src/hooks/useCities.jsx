@@ -9,4 +9,4 @@ function useCities() {
   return context;
 }
 
-export default useCities;
+export { useCities };

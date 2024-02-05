@@ -1,64 +1,244 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": 73930385
-    },
-    {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
-      "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
-      },
-      "id": 17806751
-    },
-    {
       "cityName": "Berlin",
       "country": "Germany",
       "emoji": "🇩🇪",
       "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
+      "notes": "Camping uitje",
       "position": {
         "lat": 52.53586782505711,
         "lng": 13.376933665713324
       },
-      "id": 98443197
+      "id": "98443197"
     },
     {
       "cityName": "Tokyo",
       "country": "Japan",
-      "emoji": "JA",
+      "emoji": "🇯🇵",
       "date": "2027-05-11T09:24:11.863Z",
       "notes": "Dreams",
       "position": {
         "lat": 35.652832,
         "lng": 139.839478
       },
-      "id": 51793468
+      "id": "51793468"
     },
     {
-      "cityName": "Nijar",
+      "cityName": "Eindhoven",
+      "country": "Netherlands",
+      "emoji": "🇳🇱",
+      "date": "2023-04-03T07:47:59.202Z",
+      "notes": "Home",
+      "position": {
+        "lat": "51.42318929025317",
+        "lng": "5.482177734375001"
+      },
+      "id": "96482654"
+    },
+    {
+      "id": "9125",
+      "cityName": "Simontornya",
+      "country": "Hungary",
+      "emoji": "🇭🇺",
+      "date": "2024-02-05T10:35:52.936Z",
+      "notes": "Ozora",
+      "position": {
+        "lat": "46.757386345930016",
+        "lng": "18.542861938476566"
+      }
+    },
+    {
+      "id": "3da3",
+      "cityName": "Isafjorður",
+      "country": "Iceland",
+      "emoji": "🇮🇸",
+      "date": "2024-02-05T10:40:54.939Z",
+      "notes": "Iceland mud",
+      "position": {
+        "lat": "66.0724516036087",
+        "lng": "-23.117465972900394"
+      }
+    },
+    {
+      "id": "7645",
+      "cityName": "Lulea",
+      "country": "Sweden",
+      "emoji": "🇸🇪",
+      "date": "2024-02-05T10:43:11.465Z",
+      "notes": "Emil",
+      "position": {
+        "lat": "65.58266886381166",
+        "lng": "22.14723587036133"
+      }
+    },
+    {
+      "id": "d830",
+      "cityName": "Mafra",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2024-02-05T10:44:52.458Z",
+      "notes": "Ericeira surfing",
+      "position": {
+        "lat": "38.965682189687335",
+        "lng": "-9.419102668762209"
+      }
+    },
+    {
+      "id": "4b78",
+      "cityName": "Ella Town",
+      "country": "Sri Lanka",
+      "emoji": "🇱🇰",
+      "date": "2024-02-05T10:47:20.438Z",
+      "notes": "Elephants!",
+      "position": {
+        "lat": "6.873256386440719",
+        "lng": "81.04785919189455"
+      }
+    },
+    {
+      "id": "e901",
+      "cityName": "Wroclaw",
+      "country": "Poland",
+      "emoji": "🇵🇱",
+      "date": "2024-02-05T10:48:33.114Z",
+      "notes": "Tijmen Roadtrip",
+      "position": {
+        "lat": "51.10767162458481",
+        "lng": "17.034473419189457"
+      }
+    },
+    {
+      "id": "eefb",
+      "cityName": "Marseille",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2024-02-05T10:49:23.497Z",
+      "notes": "Hitch-hiking",
+      "position": {
+        "lat": "43.294699628704194",
+        "lng": "5.369567871093751"
+      }
+    },
+    {
+      "id": "51f5",
+      "cityName": "Salamanca",
       "country": "Spain",
       "emoji": "🇪🇸",
-      "date": "2023-04-03T07:47:59.202Z",
-      "notes": "",
+      "date": "2024-02-05T10:59:06.015Z",
+      "notes": "Visiting Tim",
       "position": {
-        "lat": "36.967508314568164",
-        "lng": "-2.13128394200588"
-      },
-      "id": 98443198
+        "lat": "40.964344957571605",
+        "lng": "-5.662765502929688"
+      }
+    },
+    {
+      "id": "8def",
+      "cityName": "Athens",
+      "country": "Greece",
+      "emoji": "🇬🇷",
+      "date": "2024-02-05T11:00:28.255Z",
+      "notes": "Boattrip to Italy",
+      "position": {
+        "lat": "37.965854128749434",
+        "lng": "23.752441406250004"
+      }
+    },
+    {
+      "id": "8042",
+      "cityName": "Athens",
+      "country": "Greece",
+      "emoji": "🇬🇷",
+      "date": "2024-02-05T11:00:28.255Z",
+      "notes": "Boattrip to Italy",
+      "position": {
+        "lat": "37.965854128749434",
+        "lng": "23.752441406250004"
+      }
+    },
+    {
+      "id": "1bba",
+      "cityName": "Rome",
+      "country": "Italy",
+      "emoji": "🇮🇹",
+      "date": "2024-02-05T11:01:20.129Z",
+      "notes": "Mathijs hostel",
+      "position": {
+        "lat": "41.88592102814744",
+        "lng": "12.488708496093752"
+      }
+    },
+    {
+      "id": "0f7f",
+      "cityName": "Copenhagen",
+      "country": "Denmark",
+      "emoji": "🇩🇰",
+      "date": "2024-02-05T11:02:21.978Z",
+      "notes": "Nighttrain to Sweden",
+      "position": {
+        "lat": "55.68687525596443",
+        "lng": "12.568359375000002"
+      }
+    },
+    {
+      "id": "69d2",
+      "cityName": "Prague",
+      "country": "Czechia",
+      "emoji": "🇨🇿",
+      "date": "2024-02-05T11:04:19.160Z",
+      "notes": "Lennon wall",
+      "position": {
+        "lat": "50.08181960206071",
+        "lng": "14.430541992187502"
+      }
+    },
+    {
+      "id": "4aed",
+      "cityName": "Vienna",
+      "country": "Austria",
+      "emoji": "🇦🇹",
+      "date": "2024-02-05T11:07:40.258Z",
+      "notes": "Alex 1st ride",
+      "position": {
+        "lat": "48.21003212234042",
+        "lng": "16.375122070312504"
+      }
+    },
+    {
+      "id": "df50",
+      "cityName": "London",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "emoji": "🇬🇧",
+      "date": "2024-02-05T11:08:52.676Z",
+      "notes": "School exchange",
+      "position": {
+        "lat": "51.50532341149335",
+        "lng": "-0.12359619140625001"
+      }
+    },
+    {
+      "id": "6ea9",
+      "cityName": "Saint-Paulet-de-Caisson",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2024-02-05T11:09:38.309Z",
+      "notes": "Les Libellules",
+      "position": {
+        "lat": "44.263180835397854",
+        "lng": "4.596405029296876"
+      }
+    },
+    {
+      "id": "c449",
+      "cityName": "Portbou",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-02-05T11:19:46.271Z",
+      "notes": "Interrail",
+      "position": {
+        "lat": "42.42497710184194",
+        "lng": "3.157196044921875"
+      }
     }
   ]
 }
