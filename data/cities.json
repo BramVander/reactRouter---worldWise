@@ -217,18 +217,6 @@
       }
     },
     {
-      "id": "6ea9",
-      "cityName": "Saint-Paulet-de-Caisson",
-      "country": "France",
-      "emoji": "🇫🇷",
-      "date": "2024-02-05T11:09:38.309Z",
-      "notes": "Les Libellules",
-      "position": {
-        "lat": "44.263180835397854",
-        "lng": "4.596405029296876"
-      }
-    },
-    {
       "id": "c449",
       "cityName": "Portbou",
       "country": "Spain",
@@ -238,6 +226,18 @@
       "position": {
         "lat": "42.42497710184194",
         "lng": "3.157196044921875"
+      }
+    },
+    {
+      "id": "9b56",
+      "cityName": "Cornillon",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2024-02-05T11:27:35.474Z",
+      "notes": "Les Libellules",
+      "position": {
+        "lat": "44.19170905326367",
+        "lng": "4.502608180046082"
       }
     }
   ]

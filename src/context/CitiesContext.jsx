@@ -16,17 +16,6 @@ function CitiesProvider({ children }) {
         // fake (local) api
         const response = await fetch(`${BASE_URL}/cities`);
 
-        // lets use a real api
-        // const response = await fetch(
-        //   "https://api.jsonbin.io/v3/b/65a654a41f5677401f1e70dc/latest",
-        //   {
-        //     headers: {
-        //       "X-Master-Key":
-        //         "$2a$10$R185Mg/0X.6.4ZBzSyo5i.frKirNm.mxFI6pqH5GVFtic7oLgrUJ.",
-        //     },
-        //   }
-        // );
-
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
         }
@@ -35,9 +24,6 @@ function CitiesProvider({ children }) {
         // fake api
         setCities(data);
         // console.log(data);
-
-        // real api
-        // setCities(data.record.cities);
       } catch (error) {
         console.error(error);
       } finally {
@@ -71,6 +57,9 @@ function CitiesProvider({ children }) {
           "Content-Type": "application/json",
         },
       });
+      const data = await res.json();
+      setCities((cities) => [...cities, data]);
+      // console.log(cities);
     } catch {
       console.error("Error adding city");
     } finally {
