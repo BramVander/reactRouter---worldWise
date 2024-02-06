@@ -104,7 +104,7 @@ function Form() {
         <input
           id="cityName"
           onChange={(e) => setCityName(e.target.value)}
-          value={cityName}
+          value={cityName + ", " + countryName}
         />
         <span className={styles.flag}>{emoji}</span>
       </div>
