@@ -145,18 +145,6 @@
       }
     },
     {
-      "id": "8042",
-      "cityName": "Athens",
-      "country": "Greece",
-      "emoji": "🇬🇷",
-      "date": "2024-02-05T11:00:28.255Z",
-      "notes": "Boattrip to Italy",
-      "position": {
-        "lat": "37.965854128749434",
-        "lng": "23.752441406250004"
-      }
-    },
-    {
       "id": "1bba",
       "cityName": "Rome",
       "country": "Italy",
