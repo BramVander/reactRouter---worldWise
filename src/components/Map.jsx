@@ -11,7 +11,7 @@ import {
 
 import styles from "./Map.module.css";
 
-import { useCities } from "../hooks/useCities";
+import { useCities } from "../context/CitiesContext";
 import { useGeolocation } from "../hooks/useGeoLocation";
 import { useUrlPosition } from "../hooks/useUrlPosition";
 import Button from "./Button";

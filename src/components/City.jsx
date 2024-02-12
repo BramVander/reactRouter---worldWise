@@ -1,7 +1,7 @@
 import { useParams, useSearchParams } from "react-router-dom";
 import { useEffect } from "react";
 
-import { useCities } from "../hooks/useCities";
+import { useCities } from "../context/CitiesContext";
 
 import styles from "./City.module.css";
 import Spinner from "./Spinner";
