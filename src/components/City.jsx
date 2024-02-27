@@ -1,4 +1,4 @@
-import { useParams, useSearchParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { useEffect } from "react";
 
 import { useCities } from "../context/CitiesContext";
@@ -8,8 +8,6 @@ import Spinner from "./Spinner";
 import BackButton from "./BackButton";
 
 function City() {
-  const [searchParams, setSearchParams] = useSearchParams();
-
   const { id } = useParams();
   const { getCity, currentCity, isLoading } = useCities();
 
@@ -25,7 +23,7 @@ function City() {
     function () {
       getCity(id);
     },
-    [id]
+    [id, getCity]
   );
 
   const { cityName, emoji, date, notes } = currentCity;
